@@ -1,3 +1,7 @@
+" Show tabs and trailing spaces
+set list
+set listchars=tab:▸\ ,trail:·
+
 set nocompatible
 set incsearch
 set ignorecase
@@ -12,7 +16,7 @@ set expandtab
 
 set autoindent
 set ruler
-set list listchars=tab:▸\ ,trail:·
+
 set hlsearch
 syntax on                       " syntax highlighting
 filetype plugin on              " use the file tupe plugins
