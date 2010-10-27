@@ -36,6 +36,21 @@ set ruler
 set hlsearch
 syntax on                       " syntax highlighting
 
+
+" Runs a command, preserving the cursor position
+function! Preserve(command)
+  " Preparation: save last search, and cursor position.
+  let _s=@/
+  let l = line(".")
+  let c = col(".")
+  " Do the business:
+  execute a:command
+  " Clean up: restore previous search history, and cursor position
+  let @/=_s
+  call cursor(l, c)
+endfunction
+
+
 " Set file type specific options
 if has("autocmd")
   " Enable file type detection
