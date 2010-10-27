@@ -1,6 +1,10 @@
 " Set the encoding to utf-8
 set encoding=utf-8
 
+" Colors
+highlight NonText guifg=#4a4a59
+highlight SpecialKey guifg=#4a4a59
+
 " Show tabs and trailing spaces
 set list
 set listchars=tab:▸\ ,trail:·
