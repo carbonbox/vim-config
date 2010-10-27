@@ -24,11 +24,19 @@ set tabstop=4
 set expandtab
 set autoindent
 
+" Show line numbers
+set number
+
+" Use paste mode
+set paste
+
+
 set incsearch
 set ignorecase
 set smartcase
 set scrolloff=3
 set wildmode=longest,list
+
 
 
 set ruler
