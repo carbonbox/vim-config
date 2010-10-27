@@ -9,6 +9,14 @@ highlight SpecialKey guifg=#4a4a59
 set list
 set listchars=tab:▸\ ,trail:·
 
+" Use 4 spaces and not tabs
+" and autoindent
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+set expandtab
+set autoindent
+
 set nocompatible
 set incsearch
 set ignorecase
@@ -16,12 +24,7 @@ set smartcase
 set scrolloff=3
 set wildmode=longest,list
 
-set shiftwidth=4
-set softtabstop=4
-set tabstop=4
-set expandtab
 
-set autoindent
 set ruler
 
 set hlsearch
