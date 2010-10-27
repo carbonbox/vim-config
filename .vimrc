@@ -1,3 +1,6 @@
+" Set the encoding to utf-8
+set encoding=utf-8
+
 " Show tabs and trailing spaces
 set list
 set listchars=tab:▸\ ,trail:·
