@@ -1,5 +1,11 @@
+" Use Vim!
+set nocompatible
+
 " Set the encoding to utf-8
 set encoding=utf-8
+
+" Set guioptions
+set guioptions=et
 
 " Colors
 highlight NonText guifg=#4a4a59
@@ -17,7 +23,6 @@ set tabstop=4
 set expandtab
 set autoindent
 
-set nocompatible
 set incsearch
 set ignorecase
 set smartcase
