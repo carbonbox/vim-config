@@ -8,6 +8,7 @@ set encoding=utf-8
 set guioptions=et
 
 " Colors
+color carbonbox
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
 
